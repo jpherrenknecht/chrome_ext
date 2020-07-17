@@ -1,0 +1,34 @@
+#BUG: sail time wraps around when you select more than 24h auto sail
+#ADD: Button to clear the raw messages
+bold or othwerwise show twa/heading setting
+
+references.bin mtime?
+FIX?: Index polars by polar id, not race id
+
+# fixed - proper E/W indicator
+# fixed - Check for zero DeltaT data
+# done - Convert to page action
+# close window - but won't attach when restoring tabs on browser restart. browserAtion also won't
+# done - Add table with status for all races.
+# - Then add funny things to it like penalties and bad sails and barrel status and programmer ...
+
+- Error handling - race list at startup, check for stale positionsa
+# done - Handle Auth and rank messages. Reset races on user change
+
+#add race by id and show alert- Handle unknown races (relaod list?)
+#- Send current heading/TWA to router so it can deal with the penalty 
+#(but not sure the router deals ok) 
+#- send available options to the (beta) races. Also userid to keep track who's who.
+
+Michael:
+# done - The 'Last command' columns is not filled yet; I'm not sure what is the best way to display them (if we want them at all).
+# done - Last Command: handle prog commands
+# done - Race rank should be included
+# done - The single status line should be removed.
+
+# done -vT - Remove or implement the vC column (supposed to show Computed speed 
+# according to options, wind and polars reported in the game)
+- Select boat to get routing for (so you could track your other
+   boats without switching accounts - or spy on your opponents...)
+
+- Handle player card in general, even our own - it's a way to refresh position sooner.
